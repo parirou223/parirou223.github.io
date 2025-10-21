@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SigmaSound - Parlantes de Alta Fidelidad</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #f4f4f4;
+      color: rgb(0, 0, 0);
+      text-align: center;
+      padding: 1.5rem 0;
+    }
+    header img {
+      width: 600px;
+      display: block;
+      margin: 0 auto 1rem auto;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+    }
+    nav {
+      background-color: #007BBD;
+      display: flex;
+      justify-content: center;
+      gap: 1.5rem;
+      padding: 0.8rem 0;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 2rem;
+      padding: 2rem;
+      max-width: 1200px;
+      margin: auto;
+    }
+    .product {
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+      overflow: hidden;
+      text-align: center;
+      transition: transform 0.2s;
+    }
+    .product:hover {
+      transform: scale(1.03);
+    }
+    .product img {
+      width: 100%;
+      height: 280px;
+      object-fit: cover;
+    }
+    .product h2 {
+      margin: 1rem 0 0.5rem;
+      color: #111111;
+    }
+    .product p {
+      color: #555;
+      margin: 0 1rem 1rem;
+    }
+    .price {
+      font-size: 1.2rem;
+      font-weight: bold;
+      color: #007BBD;
+      margin-bottom: 1rem;
+    }
+    .buy-button {
+      background-color: #B11E3E;
+      color: white;
+      border: none;
+      padding: 0.7rem 1.5rem;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-bottom: 1.5rem;
+      font-weight: bold;
+    }
+    .buy-button:hover {
+      background-color: #d3264a;
+    }
+    footer {
+      background-color: #111111;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+    .contacto {
+      background-color: #eaeaea;
+      text-align: center;
+      padding: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="c:\Users\alumno\Downloads\Logo piola.jpg" alt="Logo SigmaSound" />
+    <p>Innovación y calidad en parlantes de alta fidelidad</p>
+  </header>
+
+  <nav>
+    <a href="#productos">Productos</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+
+  <section id="productos" class="container">
+    <div class="product">
+      <img src="Primer producto.png" alt="Speaker Sigma Vertical" />
+      <h2>Speaker Sigma Vertical</h2>
+      <p>Diseño elegante y sonido envolvente. Ideal para el hogar y oficina.</p>
+      <p class="price">$54.999</p>
+      <button class="buy-button">Comprar ahora</button>
+    </div>
+
+    <div class="product">
+      <img src="Segundo producto.png" alt="Prime Speaker" />
+      <h2>Prime Speaker</h2>
+      <p>Compacto, potente y accesible. Perfecto para música en movimiento.</p>
+      <p class="price">$59.999</p>
+      <button class="buy-button">Comprar ahora</button>
+    </div>
+
+    <div class="product">
+      <img src="Tercer producto.png" alt="Alpha One" />
+      <h2>Alpha One</h2>
+      <p>Diseño moderno, tamaño reducido y gran potencia de sonido.</p>
+      <p class="price">$55.999</p>
+      <button class="buy-button">Comprar ahora</button>
+    </div>
+
+    <div class="product">
+      <img src="Cuarto producto.png" alt="Exclusive 25" />
+      <h2>Exclusive 25</h2>
+      <p>Edición exclusiva con botones de control multimedia y diseño premium.</p>
+      <p class="price">$69.999</p>
+      <button class="buy-button">Comprar ahora</button>
+    </div>
+  </section>
+
+  <section id="contacto" class="contacto">
+    <h2>Contacto</h2>
+    <p>¿Tenés dudas o querés realizar un pedido mayorista?</p>
+    <p>Escribinos a: <strong>soundsigma70@gmail.com</strong></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 SigmaSound SRL - Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
